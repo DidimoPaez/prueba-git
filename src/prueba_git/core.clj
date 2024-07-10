@@ -8,3 +8,7 @@
   (if (< n 2)
     1
     (* (fibonacci (n - 1)) (fibonacci (n - 1)))))
+(defn foo
+      "I don't know what to do"
+      [x]
+      (println x "Hello, MUNDO!"))
